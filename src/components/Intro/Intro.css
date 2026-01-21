@@ -7,6 +7,7 @@
     position: relative;
 }
 
+
 .bg {
     position: absolute;
     top: -4rem;
@@ -37,7 +38,8 @@
 
 .introPara {
     font-size: medium;
-    font-weight: 100;
+    font-weight: 400;
+    letter-spacing: 1px;
 
 }
 
