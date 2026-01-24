@@ -57,6 +57,16 @@
      border-bottom: 3px solid yellow;
 }
 
+
+
+.listItem {
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30, 30, 30);
+
+}
+/* sdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsd */
 .mobMenu {
     display: none;
     object-fit: cover;
@@ -65,8 +75,8 @@
 
 .navMenu {
     position: absolute;
-    top: 4rem;
-    right: 2rem;
+    top: 5rem;
+    right: 5rem;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -77,22 +87,23 @@
     border-radius: 1rem;
 }
 
-.listItem {
-    color: white;
-    padding: 0.5rem 3rem;
-    margin: 0.25rem;
-    background: rgb(30, 30, 30);
-
-}
-
 @media screen and (max-width:720px) {
     .mobMenu {
         display: flex;
+        margin-right: 10rem;
     }
     .desktopMenu {
         display: none;
+
     }
     .desktopMenuButton {
         display: none;
+
+    }
+    .navMenu{
+        margin-right: auto;
+        margin-right: 5rem;
     }
 }
+
+
