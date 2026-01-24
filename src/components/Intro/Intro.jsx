@@ -1,26 +1,50 @@
-import React from 'react'
-import "./Intro.css"
-import bg from "../../assets/image.png"
-import btn from "../../assets/hireme.png"
-import {Link} from "react-scroll"
+import React from "react";
+import "./Intro.css";
 
-const Intro = () => {
+import ProfileImg from "../../assets/profile.jpg";
+
+const About = () => {
   return (
-    <section id="intro">
-        <div className="introContent">
-            <span className="hello">Hello</span>
-            <span className="introText">I'm <span className="introName">Yuvi
-                                    </span> <br />Fullstack Developer</span>
-        <p className="introPara">I am a skilled web designer with experience in creating <br />
-        visually appealing and user friendly websites.</p>
-        <Link><button className="btn">
-        <img src={btn} alt="Hire Me" className='btnImg'/>Hire Me</button>
-        </Link>
-        
-        </div>
-        <img src={bg} alt="profilee" className="bg" />
-    </section>
-  )
-}
+    <section id="about" className="aboutSection">
+      
+      {/* Heading */}
+      <h2 className="aboutTitle">
+        👤 About <span>Me</span>
+      </h2>
 
-export default Intro
+      {/* Main Content */}
+      <div className="aboutContainer">
+
+        {/* Left Image */}
+        <div className="aboutImgBox">
+          <img src={ProfileImg} alt="profile" className="aboutImg" />
+        </div>
+
+        {/* Right Text */}
+        <div className="aboutContent">
+          <h3>Full Stack Developer</h3>
+
+          <p>
+            I am a Full Stack Developer passionate about building scalable,
+            secure and modern web applications using MERN Stack.
+            <br /><br />
+            I enjoy learning new technologies and improving my coding skills
+            every day.
+          </p>
+
+          <p>
+            <b>Email:</b> yogeshpaliwal9493@gmail.com <br />
+            <b>Place:</b> Uttarakhand, India
+          </p>
+
+          <a href="/resume.pdf" target="_blank" className="resumeBtn">
+            Resume ➜
+          </a>
+        </div>
+      </div>
+
+    </section>
+  );
+};
+
+export default About;

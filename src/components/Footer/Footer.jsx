@@ -32,13 +32,13 @@ const Footer = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#intro">Intro</a>
+              <a href="#about">About</a>
             </li>
             <li>
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#works">Works</a>
+              <a href="#works">Projects</a>
             </li>
           </ul>
         </div>
@@ -67,15 +67,15 @@ const Footer = () => {
               <img src={GithubIcon} alt="GitHub" />
             </a>
 
-            <a href="https://linkedin.com" target="_blank">
+            <a href="https://www.linkedin.com/in/yogesh-paliwal/" target="_blank">
               <img src={LinkedInIcon} alt="LinkedIn" />
             </a>
 
-            <a href="https://twitter.com" target="_blank">
+            <a href="https://x.com/23yuvi13" target="_blank">
               <img src={TwitterIcon} alt="Twitter" />
             </a>
 
-            <a href="https://discord.com" target="_blank">
+            <a href="https://discord.gg/fsDkjBNT" target="_blank">
               <img src={DiscordIcon} alt="Discord" />
             </a>
           </div>

@@ -4,12 +4,14 @@ import Skills from './components/Skills/Skills'
 import Works from './components/Works/Works'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Home from './components/Home/Home'
 
 
 const App = () => {
   return (
     <div>
         <Navbar/>
+        <Home/>
         <Intro/>
         <Skills/>
         <Works/>

@@ -34,7 +34,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="skills-section">
+    <section className="skills-section" id="skills">
       <h2 className="skills-title">
         💻 Skills <span>&</span> Abilities
       </h2>
