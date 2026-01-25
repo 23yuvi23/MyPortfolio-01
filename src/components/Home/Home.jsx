@@ -48,7 +48,7 @@ const Home = () => {
         // onHoverStart={() => console.log('hover started!')}
         className="homeBtn" onClick={()=>{
           document.getElementById("about").scrollIntoView({behavior: "smooth"})
-        }}>About Me ↓</motion.button>
+        }}>About Me↓</motion.button>
 
         <div className="socialIcons">
           <div className="footerSocials">
