@@ -91,7 +91,7 @@ useGSAP(
           <img src={Portfolio1} alt="Portfolio1" className="worksImg" />
         </a>
 
-        <a href="https://project8-link.com" target="_blank" rel="noreferrer">
+        <a href="https://yogeshpaliwal.vercel.app/" target="_blank" rel="noreferrer">
           <img src={Portfolio8} alt="Portfolio8" className="worksImg" />
         </a>
 

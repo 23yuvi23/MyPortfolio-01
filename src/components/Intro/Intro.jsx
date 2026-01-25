@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import "./Intro.css";
 
 import ProfileImg from "../../assets/profile.png";
-
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -75,7 +74,12 @@ const About = () => {
             <b>Place:</b> Uttarakhand, India
           </p>
 
-          <a href="/resume.pdf" target="_blank" className="resumeBtn">
+          <a 
+          href="https://drive.google.com/file/d/1Q0gpCwuE9pOsmj5_G6LlwDvhSuSW9Tm8/view?usp=sharing"
+          target="_blank" 
+          rel="noreferrer"
+          className="resumeBtn"
+          >
             Resume ➜
           </a>
         </div>
