@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
-import call from "../../assets/assets_Footer/call.png"
+import call from "../../assets/assets_Footer/email.png"
 
 // to send mail this logic will work
 
@@ -39,7 +39,8 @@ const Contact = () => {
   return (
     <section id="contactPage">
       <div id="contact">
-        <h1 className="contactPageTitle">Get In <span className="touch"> Touch </span> <img className="callIcon" src={call} alt="call" /></h1>
+        <h1 className="contactPageTitle">Get In <span className="touch"> Touch 
+          </span> <img className="callIcon" src={call} alt="call" /></h1>
         
 
         {/* //below line updated to semd mail */}
@@ -73,9 +74,11 @@ const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
+
           <button type="submit" value="send" className="submitBtn">
             Submit
           </button>
+          
         </form>
       </div>
     </section>

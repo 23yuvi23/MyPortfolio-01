@@ -8,6 +8,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+  z-index: 5;   /* ✅ particles se ऊपर आ जाएगा */
+  background: rgb(30, 30, 30); /* ✅ particles hide */
+
 }
 
 .contactDesc {
@@ -45,12 +49,26 @@
 
 
 .submitBtn {
-    background: white;
-    border: none;
-    border-radius: 0.5rem;
-    margin: 2rem;
-    padding: 0.75rem 3.5rem;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(59, 10, 153, 0.4);
 }
+
+.submitBtn:hover {
+  background: #d7f35d;
+  transform: scale(1.05);
+}
+
+
 
 @media (max-width: 700px) {
   .msg {
@@ -73,4 +91,6 @@
 .callIcon{
     width: 30px;
     height: 30px;
+    /* display: flex; */
+    
 }
