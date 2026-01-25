@@ -23,13 +23,14 @@ const About = () => {
     delay: 0.2,
     ease: "power4.out",
 
-     scrollTrigger: {
-      trigger: ".aboutSection .aboutImgBox",   // ✅ section trigger
-      start: "top 50%",           // ✅ only when section reaches 70% viewport
-      end: "top 30%",
-      // scrub: true,     //If you want animation scroll ke साथ move kare:
-      toggleActions: "play reverse play reverse", // ✅ play repeadly
-    },
+    //  scrollTrigger: {
+    //   trigger: ".aboutSection .aboutImgBox",   // ✅ section trigger
+    //   start: "top 50%",           // ✅ only when section reaches 70% viewport
+    //   end: "top 30%",
+    //   // scrub: true,     //If you want animation scroll ke साथ move kare:
+    //   toggleActions: "play reverse play reverse", // ✅ play repeadly
+
+    // },
 
     scrollTrigger: {
       trigger: ".aboutSection",

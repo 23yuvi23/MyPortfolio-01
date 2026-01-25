@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./works.css";
+import "./Works.css";
 
 import Portfolio1 from "../../assets/portfolio-1.png";
 import Portfolio2 from "../../assets/portfolio-2.png";
@@ -25,7 +25,6 @@ useGSAP(
     () => {
       gsap.from(".worksImg", {
        x: 500,
-      rotate: 10,
       opacity: 0,
       scale: 0.5,
       rotate: 30,
