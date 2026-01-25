@@ -5,12 +5,16 @@ import Works from './components/Works/Works'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
+import ParticlesBG from "./components/ParticlesBG";
 
 
 const App = () => {
+
   return (
     <div>
+      
         <Navbar/>
+        <ParticlesBG />
         <Home/>
         <Intro/>
         <Skills/>

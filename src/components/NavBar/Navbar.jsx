@@ -28,7 +28,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={10}
             duration={500}
             className="desktopMenuListItem"
           >

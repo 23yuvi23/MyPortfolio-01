@@ -6,10 +6,15 @@ import GithubIcon from "../../assets/assets_contact/github.png";
 import LinkedInIcon from "../../assets/assets_contact/linkedin.png";
 import TwitterIcon from "../../assets/assets_contact/twitter.png";
 import DiscordIcon from "../../assets/assets_contact/discord.png";
+import { motion } from "motion/react"
+
 
 const Home = () => {
   return (
-    <section id="home" className="home">
+    <section id="home" className="home" >
+      {/*  Particle Background */}
+      {/* <ParticlesBG /> */}
+
       {/* Left Side */}
       <div className="homeLeft">
         <h1>
@@ -37,9 +42,13 @@ const Home = () => {
           </span>
         </h2>
 
-        <button className="homeBtn" onClick={()=>{
+        <motion.button 
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        // onHoverStart={() => console.log('hover started!')}
+        className="homeBtn" onClick={()=>{
           document.getElementById("about").scrollIntoView({behavior: "smooth"})
-        }}>About Me ↓</button>
+        }}>About Me ↓</motion.button>
 
         <div className="socialIcons">
           <div className="footerSocials">
@@ -69,6 +78,7 @@ const Home = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 

@@ -87,3 +87,17 @@
     max-width: 100%;
   }
 }
+
+
+
+.aboutImg {
+  filter: grayscale(100%);   /* ✅ black & white */
+  transition: all 0.4s ease; /* ✅ smooth effect */
+}
+
+.aboutImg:hover {
+  filter: grayscale(0%);
+  transform: scale(1.08);
+  box-shadow: 0 10px 30px rgba(255, 255, 0, 0.3);
+}
+

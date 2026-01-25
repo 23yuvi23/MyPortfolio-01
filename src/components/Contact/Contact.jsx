@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import call from "../../assets/assets_Footer/call.png"
 
 // to send mail this logic will work
 
@@ -38,10 +39,9 @@ const Contact = () => {
   return (
     <section id="contactPage">
       <div id="contact">
-        <h1 className="contactPageTitle">Contact Me</h1>
-        <span className="contactDesc">
-          Please fill out the form below to discuss any work opportunities
-        </span>
+        <h1 className="contactPageTitle">Get In <span className="touch"> Touch </span> <img className="callIcon" src={call} alt="call" /></h1>
+        
+
         {/* //below line updated to semd mail */}
         <form
           action=""

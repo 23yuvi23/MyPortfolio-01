@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
-  background: rgb(30, 30, 30);
+  background: transparent;
   height: calc(100vh - 4rem);
   width: 100vw;
   max-width: 75rem;
@@ -11,6 +11,22 @@
   overflow: hidden;
   position: relative;
 }
+
+/* Particle canvas */
+#tsparticles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  
+}
+
+/* Content above particles */
+.homeLeft,
+.homeRight {
+  position: relative;
+  z-index: 2;
+}
+
 
 .homeLeft h1 {
   font-size: 3.5rem;
